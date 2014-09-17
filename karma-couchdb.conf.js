@@ -17,7 +17,7 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: bowerJS.concat([
       'angular-pouchdb.js',
-      'test/*-pouch-spec.js'
+      'test/*-couch-spec.js'
     ]),
 
     // list of files to exclude
