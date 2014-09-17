@@ -64,6 +64,7 @@ angular.module('pouchdb', [])
       api.replicate = {
         to: db.replicate.to.bind(db),
         from: db.replicate.from.bind(db),
+        sync: db.replicate.sync.bind(db)
       };
 
       return api;
