@@ -110,6 +110,7 @@ describe('Angular PouchDB', function() {
     expect(result).toBe(true);
     expect(db.replicate.to).toBeDefined();
     expect(db.replicate.from).toBeDefined();
+    expect(db.replicate.sync).toBeDefined();
   });
 
   it('should resolve a DB post', function(done) {
